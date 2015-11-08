@@ -1,0 +1,913 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37198D461B8A224500C8F45D /* Appoli-friendsbutton_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37198D451B8A224500C8F45D /* Appoli-friendsbutton_03.jpg */; };
+		3737A19E1B888A490063E85F /* Appoli--_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1751B888A490063E85F /* Appoli--_11.jpg */; };
+		3737A19F1B888A490063E85F /* Appoli-add-friendaAD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1761B888A490063E85F /* Appoli-add-friendaAD.jpg */; };
+		3737A1A01B888A490063E85F /* Appoli-appoAD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1771B888A490063E85F /* Appoli-appoAD.jpg */; };
+		3737A1A11B888A490063E85F /* Appoli-appoAD1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1781B888A490063E85F /* Appoli-appoAD1.jpg */; };
+		3737A1A21B888A490063E85F /* Appoli-appobuttonAD_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1791B888A490063E85F /* Appoli-appobuttonAD_03.jpg */; };
+		3737A1A31B888A490063E85F /* Appoli-appobuttonAD_07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A17A1B888A490063E85F /* Appoli-appobuttonAD_07.jpg */; };
+		3737A1A41B888A490063E85F /* Appoli-appobuttonAD_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A17B1B888A490063E85F /* Appoli-appobuttonAD_11.jpg */; };
+		3737A1A51B888A490063E85F /* Appoli-appobuttonAD_15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A17C1B888A490063E85F /* Appoli-appobuttonAD_15.jpg */; };
+		3737A1A61B888A490063E85F /* Appoli-appoOKAD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A17D1B888A490063E85F /* Appoli-appoOKAD.jpg */; };
+		3737A1A71B888A490063E85F /* Appoli-apposelectAD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A17E1B888A490063E85F /* Appoli-apposelectAD.jpg */; };
+		3737A1A81B888A490063E85F /* Appoli-Button2_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A17F1B888A490063E85F /* Appoli-Button2_03.jpg */; };
+		3737A1A91B888A490063E85F /* Appoli-Button2_07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1801B888A490063E85F /* Appoli-Button2_07.jpg */; };
+		3737A1AA1B888A490063E85F /* Appoli-checkAD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1811B888A490063E85F /* Appoli-checkAD.jpg */; };
+		3737A1AB1B888A490063E85F /* Appoli-friends-listAD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1821B888A490063E85F /* Appoli-friends-listAD.jpg */; };
+		3737A1AC1B888A490063E85F /* Appoli-HomeAD_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1831B888A490063E85F /* Appoli-HomeAD_14.jpg */; };
+		3737A1AE1B888A490063E85F /* Appoli-HomeAD_19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1851B888A490063E85F /* Appoli-HomeAD_19.jpg */; };
+		3737A1AF1B888A490063E85F /* Appoli-HomeAD_23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1861B888A490063E85F /* Appoli-HomeAD_23.jpg */; };
+		3737A1B01B888A490063E85F /* Appoli-HomeAD_27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1871B888A490063E85F /* Appoli-HomeAD_27.jpg */; };
+		3737A1B11B888A490063E85F /* Appoli-HomeAD_30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1881B888A490063E85F /* Appoli-HomeAD_30.jpg */; };
+		3737A1B21B888A490063E85F /* Appoli-homeAD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1891B888A490063E85F /* Appoli-homeAD.jpg */; };
+		3737A1B31B888A490063E85F /* Appoli-HomeAD1_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A18A1B888A490063E85F /* Appoli-HomeAD1_02.jpg */; };
+		3737A1B41B888A490063E85F /* Appoli-LoginAD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A18B1B888A490063E85F /* Appoli-LoginAD.jpg */; };
+		3737A1B51B888A490063E85F /* Appoli-loginButton_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A18C1B888A490063E85F /* Appoli-loginButton_03.jpg */; };
+		3737A1B61B888A490063E85F /* Appoli-loginButton_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A18D1B888A490063E85F /* Appoli-loginButton_06.jpg */; };
+		3737A1B71B888A490063E85F /* Appoli-settingbutton_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A18E1B888A490063E85F /* Appoli-settingbutton_03.jpg */; };
+		3737A1B81B888A490063E85F /* Appoli-settingbutton_07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A18F1B888A490063E85F /* Appoli-settingbutton_07.jpg */; };
+		3737A1B91B888A490063E85F /* Appoli-settingselectAD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1901B888A490063E85F /* Appoli-settingselectAD.jpg */; };
+		3737A1BA1B888A490063E85F /* Appoli-signupAD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1911B888A490063E85F /* Appoli-signupAD.jpg */; };
+		3737A1BB1B888A490063E85F /* Appoli-アップデートappo_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1921B888A490063E85F /* Appoli-アップデートappo_04.jpg */; };
+		3737A1BC1B888A490063E85F /* Appoli-アップデートHOME_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1931B888A490063E85F /* Appoli-アップデートHOME_02.jpg */; };
+		3737A1BD1B888A490063E85F /* Appoli-アップデートHOMEボタン_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1941B888A490063E85F /* Appoli-アップデートHOMEボタン_14.jpg */; };
+		3737A1BE1B888A490063E85F /* Appoli-アップデートHOMEボタン_17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1951B888A490063E85F /* Appoli-アップデートHOMEボタン_17.jpg */; };
+		3737A1C01B888A490063E85F /* Appoli-アップデートHOMEボタン_25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1971B888A490063E85F /* Appoli-アップデートHOMEボタン_25.jpg */; };
+		3737A1C11B888A490063E85F /* Appoli-アップデートHOMEボタン_30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1981B888A490063E85F /* Appoli-アップデートHOMEボタン_30.jpg */; };
+		3737A1C21B888A490063E85F /* Appoli-アップデートデザイン2_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1991B888A490063E85F /* Appoli-アップデートデザイン2_03.jpg */; };
+		3737A1C31B888A490063E85F /* Appoli-アップデートデザインappo_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A19A1B888A490063E85F /* Appoli-アップデートデザインappo_14.jpg */; };
+		3737A1C41B888A490063E85F /* Appoli-アップデートデザインappo_18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A19B1B888A490063E85F /* Appoli-アップデートデザインappo_18.jpg */; };
+		3737A1C61B888A490063E85F /* Appoli-アップデートデザインappo_25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A19D1B888A490063E85F /* Appoli-アップデートデザインappo_25.jpg */; };
+		3737A1DF1B897A2B0063E85F /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1CA1B897A2B0063E85F /* Icon-40.png */; };
+		3737A1E01B897A2B0063E85F /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1CB1B897A2B0063E85F /* Icon-40@2x.png */; };
+		3737A1E11B897A2B0063E85F /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1CC1B897A2B0063E85F /* Icon-40@3x.png */; };
+		3737A1E21B897A2B0063E85F /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1CD1B897A2B0063E85F /* Icon-60@2x.png */; };
+		3737A1E31B897A2B0063E85F /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1CE1B897A2B0063E85F /* Icon-60@3x.png */; };
+		3737A1E41B897A2B0063E85F /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1CF1B897A2B0063E85F /* Icon-76.png */; };
+		3737A1E51B897A2B0063E85F /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1D01B897A2B0063E85F /* Icon-76@2x.png */; };
+		3737A1E61B897A2B0063E85F /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1D11B897A2B0063E85F /* Icon-Small.png */; };
+		3737A1E71B897A2B0063E85F /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1D21B897A2B0063E85F /* Icon-Small@2x.png */; };
+		3737A1E81B897A2B0063E85F /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1D31B897A2B0063E85F /* Icon-Small@3x.png */; };
+		3737A1E91B897A2B0063E85F /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1D41B897A2B0063E85F /* Icon-60.png */; };
+		3737A1EA1B897A2B0063E85F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1D51B897A2B0063E85F /* Icon-72.png */; };
+		3737A1EB1B897A2B0063E85F /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1D61B897A2B0063E85F /* Icon-72@2x.png */; };
+		3737A1EC1B897A2B0063E85F /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1D71B897A2B0063E85F /* Icon-Small-50.png */; };
+		3737A1ED1B897A2B0063E85F /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1D81B897A2B0063E85F /* Icon-Small-50@2x.png */; };
+		3737A1EE1B897A2B0063E85F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1D91B897A2B0063E85F /* Icon.png */; };
+		3737A1EF1B897A2B0063E85F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1DA1B897A2B0063E85F /* Icon@2x.png */; };
+		3737A1F01B897A2B0063E85F /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1DB1B897A2B0063E85F /* iTunesArtwork.png */; };
+		3737A1F11B897A2B0063E85F /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1DC1B897A2B0063E85F /* iTunesArtwork@2x.png */; };
+		379C703E1B8805C200F901A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379C703D1B8805C200F901A5 /* Main.storyboard */; };
+		37D99AA01AF72231008279BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D99A9F1AF72231008279BF /* AppDelegate.swift */; };
+		37D99AA71AF72231008279BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D99AA61AF72231008279BF /* Images.xcassets */; };
+		37D99AAA1AF72231008279BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D99AA81AF72231008279BF /* LaunchScreen.xib */; };
+		37F9BECE1BEF8C5700B60D14 /* AppoSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F9BECD1BEF8C5700B60D14 /* AppoSelectViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		37F9BED21BEF904700B60D14 /* Appoli-Apposelect2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F9BED11BEF904700B60D14 /* Appoli-Apposelect2.png */; settings = {ASSET_TAGS = (); }; };
+		37F9BED41BEFAD7400B60D14 /* Appoli-check.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F9BED31BEFAD7400B60D14 /* Appoli-check.png */; settings = {ASSET_TAGS = (); }; };
+		7DA0569C46E4C7722F7BA076 /* libPods-yoteikakunin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6796720B9D40647EE8ADF0E0 /* libPods-yoteikakunin.a */; };
+		AF2B98321B09E00B00A3899C /* ViewUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B98311B09E00B00A3899C /* ViewUtility.swift */; };
+		AF2B98341B09F41C00A3899C /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B98331B09F41C00A3899C /* AddFriendViewController.swift */; };
+		AF2B98361B09F43A00A3899C /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B98351B09F43A00A3899C /* FriendListViewController.swift */; };
+		AF2B98381B09FBE300A3899C /* FriendManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B98371B09FBE300A3899C /* FriendManager.swift */; };
+		AF4755391B0302E100A21F64 /* GeoUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4755381B0302E100A21F64 /* GeoUtility.swift */; };
+		AF84A93F1B07BFE000D2EC6F /* ListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84A93E1B07BFE000D2EC6F /* ListTableView.swift */; };
+		AF921AC61AF8846E00C48469 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF921AC51AF8846E00C48469 /* UserManager.swift */; };
+		AF921ACC1AF8861900C48469 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF921ACB1AF8861900C48469 /* LoginViewController.swift */; };
+		AF921AD61AF8A33A00C48469 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF921AD51AF8A33A00C48469 /* SignUpViewController.swift */; };
+		AF921ADC1AF8AADE00C48469 /* noimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF921ADB1AF8AADE00C48469 /* noimage.jpg */; };
+		AF921AE11AF9113C00C48469 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF921ADE1AF9113C00C48469 /* Default-568h@2x.png */; };
+		AF921AE21AF9113C00C48469 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF921ADF1AF9113C00C48469 /* Default-667h@2x.png */; };
+		AF921AE31AF9113C00C48469 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF921AE01AF9113C00C48469 /* Default-736h@3x.png */; };
+		AF921B0B1AF99A1D00C48469 /* Koruri-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF921AF21AF99A1D00C48469 /* Koruri-Bold.ttf */; };
+		AF921B0C1AF99A1D00C48469 /* Koruri-Extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF921AF31AF99A1D00C48469 /* Koruri-Extrabold.ttf */; };
+		AF921B0D1AF99A1D00C48469 /* Koruri-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF921AF41AF99A1D00C48469 /* Koruri-Light.ttf */; };
+		AF921B0E1AF99A1D00C48469 /* Koruri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF921AF51AF99A1D00C48469 /* Koruri-Regular.ttf */; };
+		AF921B0F1AF99A1D00C48469 /* Koruri-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF921AF61AF99A1D00C48469 /* Koruri-Semibold.ttf */; };
+		AF921B171AF99A1D00C48469 /* steelfish outline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF921AFE1AF99A1D00C48469 /* steelfish outline.ttf */; };
+		AF921B181AF99A1D00C48469 /* steelfish rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF921AFF1AF99A1D00C48469 /* steelfish rg.ttf */; };
+		AF921B501AFB411800C48469 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF921B4F1AFB411800C48469 /* CheckViewController.swift */; };
+		AF9D565A1B5D094E00DDB0CE /* arrow@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF9D56581B5D094E00DDB0CE /* arrow@2x.jpg */; };
+		AF9D565D1B5D0A3300DDB0CE /* appoli-basic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9D565C1B5D0A3300DDB0CE /* appoli-basic@2x.png */; };
+		AF9D565F1B5D0ADA00DDB0CE /* top-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9D565E1B5D0ADA00DDB0CE /* top-bg@2x.png */; };
+		AF9D56611B5D0C4B00DDB0CE /* human@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9D56601B5D0C4B00DDB0CE /* human@2x.png */; };
+		AF9D56631B5D0CAC00DDB0CE /* setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9D56621B5D0CAC00DDB0CE /* setting@2x.png */; };
+		AF9D56651B5D12A800DDB0CE /* fukidashi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9D56641B5D12A800DDB0CE /* fukidashi@2x.png */; };
+		AFA46C801B82FC2A00BC6631 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA46C7F1B82FC2A00BC6631 /* FriendsViewController.swift */; };
+		AFA46C821B831AF600BC6631 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA46C811B831AF600BC6631 /* MapKit.framework */; };
+		AFBE19291B1C34E000252CE3 /* FriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBE19271B1C34E000252CE3 /* FriendsCell.swift */; };
+		AFBE192A1B1C34E000252CE3 /* FriendsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFBE19281B1C34E000252CE3 /* FriendsCell.xib */; };
+		AFBE192E1B1C699900252CE3 /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFBE192D1B1C699900252CE3 /* selected@2x.png */; };
+		AFBE19341B1E0EF300252CE3 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBE19331B1E0EF300252CE3 /* TopViewController.swift */; };
+		AFBE19361B1E0EF900252CE3 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBE19351B1E0EF900252CE3 /* SelectViewController.swift */; };
+		AFBE19381B1E0F2D00252CE3 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBE19371B1E0F2D00252CE3 /* InputViewController.swift */; };
+		AFBE193A1B1E0F3300252CE3 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBE19391B1E0F3300252CE3 /* FinishViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37198D451B8A224500C8F45D /* Appoli-friendsbutton_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-friendsbutton_03.jpg"; sourceTree = "<group>"; };
+		3737A1751B888A490063E85F /* Appoli--_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli--_11.jpg"; sourceTree = "<group>"; };
+		3737A1761B888A490063E85F /* Appoli-add-friendaAD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-add-friendaAD.jpg"; sourceTree = "<group>"; };
+		3737A1771B888A490063E85F /* Appoli-appoAD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-appoAD.jpg"; sourceTree = "<group>"; };
+		3737A1781B888A490063E85F /* Appoli-appoAD1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-appoAD1.jpg"; sourceTree = "<group>"; };
+		3737A1791B888A490063E85F /* Appoli-appobuttonAD_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-appobuttonAD_03.jpg"; sourceTree = "<group>"; };
+		3737A17A1B888A490063E85F /* Appoli-appobuttonAD_07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-appobuttonAD_07.jpg"; sourceTree = "<group>"; };
+		3737A17B1B888A490063E85F /* Appoli-appobuttonAD_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-appobuttonAD_11.jpg"; sourceTree = "<group>"; };
+		3737A17C1B888A490063E85F /* Appoli-appobuttonAD_15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-appobuttonAD_15.jpg"; sourceTree = "<group>"; };
+		3737A17D1B888A490063E85F /* Appoli-appoOKAD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-appoOKAD.jpg"; sourceTree = "<group>"; };
+		3737A17E1B888A490063E85F /* Appoli-apposelectAD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-apposelectAD.jpg"; sourceTree = "<group>"; };
+		3737A17F1B888A490063E85F /* Appoli-Button2_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-Button2_03.jpg"; sourceTree = "<group>"; };
+		3737A1801B888A490063E85F /* Appoli-Button2_07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-Button2_07.jpg"; sourceTree = "<group>"; };
+		3737A1811B888A490063E85F /* Appoli-checkAD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-checkAD.jpg"; sourceTree = "<group>"; };
+		3737A1821B888A490063E85F /* Appoli-friends-listAD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-friends-listAD.jpg"; sourceTree = "<group>"; };
+		3737A1831B888A490063E85F /* Appoli-HomeAD_14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-HomeAD_14.jpg"; sourceTree = "<group>"; };
+		3737A1851B888A490063E85F /* Appoli-HomeAD_19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-HomeAD_19.jpg"; sourceTree = "<group>"; };
+		3737A1861B888A490063E85F /* Appoli-HomeAD_23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-HomeAD_23.jpg"; sourceTree = "<group>"; };
+		3737A1871B888A490063E85F /* Appoli-HomeAD_27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-HomeAD_27.jpg"; sourceTree = "<group>"; };
+		3737A1881B888A490063E85F /* Appoli-HomeAD_30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-HomeAD_30.jpg"; sourceTree = "<group>"; };
+		3737A1891B888A490063E85F /* Appoli-homeAD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-homeAD.jpg"; sourceTree = "<group>"; };
+		3737A18A1B888A490063E85F /* Appoli-HomeAD1_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-HomeAD1_02.jpg"; sourceTree = "<group>"; };
+		3737A18B1B888A490063E85F /* Appoli-LoginAD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-LoginAD.jpg"; sourceTree = "<group>"; };
+		3737A18C1B888A490063E85F /* Appoli-loginButton_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-loginButton_03.jpg"; sourceTree = "<group>"; };
+		3737A18D1B888A490063E85F /* Appoli-loginButton_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-loginButton_06.jpg"; sourceTree = "<group>"; };
+		3737A18E1B888A490063E85F /* Appoli-settingbutton_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-settingbutton_03.jpg"; sourceTree = "<group>"; };
+		3737A18F1B888A490063E85F /* Appoli-settingbutton_07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-settingbutton_07.jpg"; sourceTree = "<group>"; };
+		3737A1901B888A490063E85F /* Appoli-settingselectAD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-settingselectAD.jpg"; sourceTree = "<group>"; };
+		3737A1911B888A490063E85F /* Appoli-signupAD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-signupAD.jpg"; sourceTree = "<group>"; };
+		3737A1921B888A490063E85F /* Appoli-アップデートappo_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-アップデートappo_04.jpg"; sourceTree = "<group>"; };
+		3737A1931B888A490063E85F /* Appoli-アップデートHOME_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-アップデートHOME_02.jpg"; sourceTree = "<group>"; };
+		3737A1941B888A490063E85F /* Appoli-アップデートHOMEボタン_14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-アップデートHOMEボタン_14.jpg"; sourceTree = "<group>"; };
+		3737A1951B888A490063E85F /* Appoli-アップデートHOMEボタン_17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-アップデートHOMEボタン_17.jpg"; sourceTree = "<group>"; };
+		3737A1971B888A490063E85F /* Appoli-アップデートHOMEボタン_25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-アップデートHOMEボタン_25.jpg"; sourceTree = "<group>"; };
+		3737A1981B888A490063E85F /* Appoli-アップデートHOMEボタン_30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-アップデートHOMEボタン_30.jpg"; sourceTree = "<group>"; };
+		3737A1991B888A490063E85F /* Appoli-アップデートデザイン2_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-アップデートデザイン2_03.jpg"; sourceTree = "<group>"; };
+		3737A19A1B888A490063E85F /* Appoli-アップデートデザインappo_14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-アップデートデザインappo_14.jpg"; sourceTree = "<group>"; };
+		3737A19B1B888A490063E85F /* Appoli-アップデートデザインappo_18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-アップデートデザインappo_18.jpg"; sourceTree = "<group>"; };
+		3737A19C1B888A490063E85F /* Appoli-アップデートデザインappo_22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-アップデートデザインappo_22.jpg"; sourceTree = "<group>"; };
+		3737A19D1B888A490063E85F /* Appoli-アップデートデザインappo_25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-アップデートデザインappo_25.jpg"; sourceTree = "<group>"; };
+		3737A1CA1B897A2B0063E85F /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		3737A1CB1B897A2B0063E85F /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		3737A1CC1B897A2B0063E85F /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		3737A1CD1B897A2B0063E85F /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		3737A1CE1B897A2B0063E85F /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		3737A1CF1B897A2B0063E85F /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		3737A1D01B897A2B0063E85F /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		3737A1D11B897A2B0063E85F /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		3737A1D21B897A2B0063E85F /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		3737A1D31B897A2B0063E85F /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		3737A1D41B897A2B0063E85F /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		3737A1D51B897A2B0063E85F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		3737A1D61B897A2B0063E85F /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		3737A1D71B897A2B0063E85F /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		3737A1D81B897A2B0063E85F /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		3737A1D91B897A2B0063E85F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3737A1DA1B897A2B0063E85F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		3737A1DB1B897A2B0063E85F /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		3737A1DC1B897A2B0063E85F /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		379C703D1B8805C200F901A5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		37D99A9A1AF72231008279BF /* yoteikakunin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yoteikakunin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D99A9E1AF72231008279BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D99A9F1AF72231008279BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37D99AA61AF72231008279BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37D99AA91AF72231008279BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		37D99AB41AF72231008279BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D99AB51AF72231008279BF /* yoteikakuninTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yoteikakuninTests.swift; sourceTree = "<group>"; };
+		37F9BECD1BEF8C5700B60D14 /* AppoSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppoSelectViewController.swift; sourceTree = "<group>"; };
+		37F9BED11BEF904700B60D14 /* Appoli-Apposelect2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appoli-Apposelect2.png"; sourceTree = "<group>"; };
+		37F9BED31BEFAD7400B60D14 /* Appoli-check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Appoli-check.png"; sourceTree = "<group>"; };
+		48FF1AFD2B4DDA0F5D47EA00 /* Pods-yoteikakunin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yoteikakunin.release.xcconfig"; path = "Pods/Target Support Files/Pods-yoteikakunin/Pods-yoteikakunin.release.xcconfig"; sourceTree = "<group>"; };
+		6796720B9D40647EE8ADF0E0 /* libPods-yoteikakunin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yoteikakunin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		791264F96C56AFE4F766F35A /* libPods-yoteikakuninTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yoteikakuninTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE3EFC91BD55B95002B24F4 /* yoteikakunin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yoteikakunin-Bridging-Header.h"; sourceTree = "<group>"; };
+		9770A7DABE844046093814DF /* Pods-yoteikakuninTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yoteikakuninTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yoteikakuninTests/Pods-yoteikakuninTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF2B98311B09E00B00A3899C /* ViewUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewUtility.swift; sourceTree = "<group>"; };
+		AF2B98331B09F41C00A3899C /* AddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		AF2B98351B09F43A00A3899C /* FriendListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		AF2B98371B09FBE300A3899C /* FriendManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendManager.swift; sourceTree = "<group>"; };
+		AF4755381B0302E100A21F64 /* GeoUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoUtility.swift; sourceTree = "<group>"; };
+		AF84A93E1B07BFE000D2EC6F /* ListTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableView.swift; sourceTree = "<group>"; };
+		AF921AC51AF8846E00C48469 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		AF921ACB1AF8861900C48469 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF921AD51AF8A33A00C48469 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AF921ADB1AF8AADE00C48469 /* noimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noimage.jpg; sourceTree = "<group>"; };
+		AF921ADE1AF9113C00C48469 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AF921ADF1AF9113C00C48469 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		AF921AE01AF9113C00C48469 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		AF921AF21AF99A1D00C48469 /* Koruri-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Koruri-Bold.ttf"; sourceTree = "<group>"; };
+		AF921AF31AF99A1D00C48469 /* Koruri-Extrabold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Koruri-Extrabold.ttf"; sourceTree = "<group>"; };
+		AF921AF41AF99A1D00C48469 /* Koruri-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Koruri-Light.ttf"; sourceTree = "<group>"; };
+		AF921AF51AF99A1D00C48469 /* Koruri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Koruri-Regular.ttf"; sourceTree = "<group>"; };
+		AF921AF61AF99A1D00C48469 /* Koruri-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Koruri-Semibold.ttf"; sourceTree = "<group>"; };
+		AF921AFE1AF99A1D00C48469 /* steelfish outline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "steelfish outline.ttf"; sourceTree = "<group>"; };
+		AF921AFF1AF99A1D00C48469 /* steelfish rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "steelfish rg.ttf"; sourceTree = "<group>"; };
+		AF921B4F1AFB411800C48469 /* CheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		AF9D56581B5D094E00DDB0CE /* arrow@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrow@2x.jpg"; sourceTree = "<group>"; };
+		AF9D565C1B5D0A3300DDB0CE /* appoli-basic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appoli-basic@2x.png"; sourceTree = "<group>"; };
+		AF9D565E1B5D0ADA00DDB0CE /* top-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top-bg@2x.png"; sourceTree = "<group>"; };
+		AF9D56601B5D0C4B00DDB0CE /* human@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "human@2x.png"; sourceTree = "<group>"; };
+		AF9D56621B5D0CAC00DDB0CE /* setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting@2x.png"; sourceTree = "<group>"; };
+		AF9D56641B5D12A800DDB0CE /* fukidashi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fukidashi@2x.png"; sourceTree = "<group>"; };
+		AFA46C7F1B82FC2A00BC6631 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		AFA46C811B831AF600BC6631 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AFBE19271B1C34E000252CE3 /* FriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCell.swift; sourceTree = "<group>"; };
+		AFBE19281B1C34E000252CE3 /* FriendsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendsCell.xib; sourceTree = "<group>"; };
+		AFBE192D1B1C699900252CE3 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
+		AFBE19331B1E0EF300252CE3 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		AFBE19351B1E0EF900252CE3 /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		AFBE19371B1E0F2D00252CE3 /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		AFBE19391B1E0F3300252CE3 /* FinishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		B5646A4CE85E8FA61BBFFEA5 /* Pods-yoteikakuninTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yoteikakuninTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yoteikakuninTests/Pods-yoteikakuninTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E70F23573823342493603B6A /* Pods-yoteikakunin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yoteikakunin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yoteikakunin/Pods-yoteikakunin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37D99A971AF72231008279BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA46C821B831AF600BC6631 /* MapKit.framework in Frameworks */,
+				7DA0569C46E4C7722F7BA076 /* libPods-yoteikakunin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3737A1741B8889810063E85F /* main */ = {
+			isa = PBXGroup;
+			children = (
+				3737A1751B888A490063E85F /* Appoli--_11.jpg */,
+				3737A1761B888A490063E85F /* Appoli-add-friendaAD.jpg */,
+				3737A1771B888A490063E85F /* Appoli-appoAD.jpg */,
+				3737A1781B888A490063E85F /* Appoli-appoAD1.jpg */,
+				3737A1791B888A490063E85F /* Appoli-appobuttonAD_03.jpg */,
+				37F9BED11BEF904700B60D14 /* Appoli-Apposelect2.png */,
+				3737A17A1B888A490063E85F /* Appoli-appobuttonAD_07.jpg */,
+				3737A17B1B888A490063E85F /* Appoli-appobuttonAD_11.jpg */,
+				3737A17C1B888A490063E85F /* Appoli-appobuttonAD_15.jpg */,
+				37198D451B8A224500C8F45D /* Appoli-friendsbutton_03.jpg */,
+				37F9BED31BEFAD7400B60D14 /* Appoli-check.png */,
+				3737A17D1B888A490063E85F /* Appoli-appoOKAD.jpg */,
+				3737A17E1B888A490063E85F /* Appoli-apposelectAD.jpg */,
+				3737A17F1B888A490063E85F /* Appoli-Button2_03.jpg */,
+				3737A1801B888A490063E85F /* Appoli-Button2_07.jpg */,
+				3737A1811B888A490063E85F /* Appoli-checkAD.jpg */,
+				3737A1821B888A490063E85F /* Appoli-friends-listAD.jpg */,
+				3737A1831B888A490063E85F /* Appoli-HomeAD_14.jpg */,
+				3737A1851B888A490063E85F /* Appoli-HomeAD_19.jpg */,
+				3737A1861B888A490063E85F /* Appoli-HomeAD_23.jpg */,
+				3737A1871B888A490063E85F /* Appoli-HomeAD_27.jpg */,
+				3737A1881B888A490063E85F /* Appoli-HomeAD_30.jpg */,
+				3737A1891B888A490063E85F /* Appoli-homeAD.jpg */,
+				3737A18A1B888A490063E85F /* Appoli-HomeAD1_02.jpg */,
+				3737A18B1B888A490063E85F /* Appoli-LoginAD.jpg */,
+				3737A18C1B888A490063E85F /* Appoli-loginButton_03.jpg */,
+				3737A18D1B888A490063E85F /* Appoli-loginButton_06.jpg */,
+				3737A18E1B888A490063E85F /* Appoli-settingbutton_03.jpg */,
+				3737A18F1B888A490063E85F /* Appoli-settingbutton_07.jpg */,
+				3737A1901B888A490063E85F /* Appoli-settingselectAD.jpg */,
+				3737A1911B888A490063E85F /* Appoli-signupAD.jpg */,
+				3737A1921B888A490063E85F /* Appoli-アップデートappo_04.jpg */,
+				3737A1931B888A490063E85F /* Appoli-アップデートHOME_02.jpg */,
+				3737A1941B888A490063E85F /* Appoli-アップデートHOMEボタン_14.jpg */,
+				3737A1951B888A490063E85F /* Appoli-アップデートHOMEボタン_17.jpg */,
+				3737A1971B888A490063E85F /* Appoli-アップデートHOMEボタン_25.jpg */,
+				3737A1981B888A490063E85F /* Appoli-アップデートHOMEボタン_30.jpg */,
+				3737A1991B888A490063E85F /* Appoli-アップデートデザイン2_03.jpg */,
+				3737A19A1B888A490063E85F /* Appoli-アップデートデザインappo_14.jpg */,
+				3737A19B1B888A490063E85F /* Appoli-アップデートデザインappo_18.jpg */,
+				3737A19C1B888A490063E85F /* Appoli-アップデートデザインappo_22.jpg */,
+				3737A19D1B888A490063E85F /* Appoli-アップデートデザインappo_25.jpg */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		3737A1C71B897A2B0063E85F /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				3737A1C81B897A2B0063E85F /* AppIcon.appiconset */,
+				3737A1D41B897A2B0063E85F /* Icon-60.png */,
+				3737A1D51B897A2B0063E85F /* Icon-72.png */,
+				3737A1D61B897A2B0063E85F /* Icon-72@2x.png */,
+				3737A1D71B897A2B0063E85F /* Icon-Small-50.png */,
+				3737A1D81B897A2B0063E85F /* Icon-Small-50@2x.png */,
+				3737A1D91B897A2B0063E85F /* Icon.png */,
+				3737A1DA1B897A2B0063E85F /* Icon@2x.png */,
+				3737A1DB1B897A2B0063E85F /* iTunesArtwork.png */,
+				3737A1DC1B897A2B0063E85F /* iTunesArtwork@2x.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		3737A1C81B897A2B0063E85F /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				3737A1CA1B897A2B0063E85F /* Icon-40.png */,
+				3737A1CB1B897A2B0063E85F /* Icon-40@2x.png */,
+				3737A1CC1B897A2B0063E85F /* Icon-40@3x.png */,
+				3737A1CD1B897A2B0063E85F /* Icon-60@2x.png */,
+				3737A1CE1B897A2B0063E85F /* Icon-60@3x.png */,
+				3737A1CF1B897A2B0063E85F /* Icon-76.png */,
+				3737A1D01B897A2B0063E85F /* Icon-76@2x.png */,
+				3737A1D11B897A2B0063E85F /* Icon-Small.png */,
+				3737A1D21B897A2B0063E85F /* Icon-Small@2x.png */,
+				3737A1D31B897A2B0063E85F /* Icon-Small@3x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		37D99A911AF72231008279BF = {
+			isa = PBXGroup;
+			children = (
+				37D99A9C1AF72231008279BF /* yoteikakunin */,
+				37D99AB21AF72231008279BF /* yoteikakuninTests */,
+				37D99A9B1AF72231008279BF /* Products */,
+				A374315F836333F624E367E5 /* Pods */,
+				4FE10AB9077E791F7B703EC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37D99A9B1AF72231008279BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37D99A9A1AF72231008279BF /* yoteikakunin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37D99A9C1AF72231008279BF /* yoteikakunin */ = {
+			isa = PBXGroup;
+			children = (
+				37D99A9F1AF72231008279BF /* AppDelegate.swift */,
+				AF921ACD1AF8865200C48469 /* Resources */,
+				AF921AC31AF883BF00C48469 /* Utility */,
+				AF84DA221B07B77F00578339 /* Views */,
+				AF921AC41AF8844E00C48469 /* Controllers */,
+				37D99AA61AF72231008279BF /* Images.xcassets */,
+				37D99AA81AF72231008279BF /* LaunchScreen.xib */,
+				37D99A9D1AF72231008279BF /* Supporting Files */,
+			);
+			path = yoteikakunin;
+			sourceTree = "<group>";
+		};
+		37D99A9D1AF72231008279BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37D99A9E1AF72231008279BF /* Info.plist */,
+				7AE3EFC91BD55B95002B24F4 /* yoteikakunin-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37D99AB21AF72231008279BF /* yoteikakuninTests */ = {
+			isa = PBXGroup;
+			children = (
+				37D99AB51AF72231008279BF /* yoteikakuninTests.swift */,
+				37D99AB31AF72231008279BF /* Supporting Files */,
+			);
+			path = yoteikakuninTests;
+			sourceTree = "<group>";
+		};
+		37D99AB31AF72231008279BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37D99AB41AF72231008279BF /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FE10AB9077E791F7B703EC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFA46C811B831AF600BC6631 /* MapKit.framework */,
+				6796720B9D40647EE8ADF0E0 /* libPods-yoteikakunin.a */,
+				791264F96C56AFE4F766F35A /* libPods-yoteikakuninTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A374315F836333F624E367E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E70F23573823342493603B6A /* Pods-yoteikakunin.debug.xcconfig */,
+				48FF1AFD2B4DDA0F5D47EA00 /* Pods-yoteikakunin.release.xcconfig */,
+				B5646A4CE85E8FA61BBFFEA5 /* Pods-yoteikakuninTests.debug.xcconfig */,
+				9770A7DABE844046093814DF /* Pods-yoteikakuninTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF84DA221B07B77F00578339 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF84A93E1B07BFE000D2EC6F /* ListTableView.swift */,
+				AFBE19271B1C34E000252CE3 /* FriendsCell.swift */,
+				AFBE19281B1C34E000252CE3 /* FriendsCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF921AC31AF883BF00C48469 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AF921AC51AF8846E00C48469 /* UserManager.swift */,
+				AF2B98371B09FBE300A3899C /* FriendManager.swift */,
+				AF4755381B0302E100A21F64 /* GeoUtility.swift */,
+				AF2B98311B09E00B00A3899C /* ViewUtility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		AF921AC41AF8844E00C48469 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				379C703D1B8805C200F901A5 /* Main.storyboard */,
+				AFBE19321B1E0EEB00252CE3 /* Send */,
+				AF921ACA1AF8860A00C48469 /* Login */,
+				AF921AC81AF884F000C48469 /* Check */,
+				AF921AC91AF8850300C48469 /* Friends */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF921AC81AF884F000C48469 /* Check */ = {
+			isa = PBXGroup;
+			children = (
+				37F9BECD1BEF8C5700B60D14 /* AppoSelectViewController.swift */,
+				AF921B4F1AFB411800C48469 /* CheckViewController.swift */,
+			);
+			path = Check;
+			sourceTree = "<group>";
+		};
+		AF921AC91AF8850300C48469 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				AFA46C7F1B82FC2A00BC6631 /* FriendsViewController.swift */,
+				AF2B98331B09F41C00A3899C /* AddFriendViewController.swift */,
+				AF2B98351B09F43A00A3899C /* FriendListViewController.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		AF921ACA1AF8860A00C48469 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AF921ACB1AF8861900C48469 /* LoginViewController.swift */,
+				AF921AD51AF8A33A00C48469 /* SignUpViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AF921ACD1AF8865200C48469 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF9D56641B5D12A800DDB0CE /* fukidashi@2x.png */,
+				AF9D56621B5D0CAC00DDB0CE /* setting@2x.png */,
+				AF9D56601B5D0C4B00DDB0CE /* human@2x.png */,
+				AF9D565E1B5D0ADA00DDB0CE /* top-bg@2x.png */,
+				AF9D565C1B5D0A3300DDB0CE /* appoli-basic@2x.png */,
+				AF9D56581B5D094E00DDB0CE /* arrow@2x.jpg */,
+				AFBE192F1B1E0AE100252CE3 /* Fonts */,
+				AF921AE61AF99A1D00C48469 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AF921ADD1AF9113C00C48469 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				AF921ADE1AF9113C00C48469 /* Default-568h@2x.png */,
+				AF921ADF1AF9113C00C48469 /* Default-667h@2x.png */,
+				AF921AE01AF9113C00C48469 /* Default-736h@3x.png */,
+			);
+			name = Defaults;
+			path = ../Defaults;
+			sourceTree = "<group>";
+		};
+		AF921AE61AF99A1D00C48469 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3737A1741B8889810063E85F /* main */,
+				AFA46C831B85699800BC6631 /* icon */,
+				AF921ADD1AF9113C00C48469 /* Defaults */,
+				AFBE192D1B1C699900252CE3 /* selected@2x.png */,
+				AF921ADB1AF8AADE00C48469 /* noimage.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AFA46C831B85699800BC6631 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				3737A1C71B897A2B0063E85F /* ios */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		AFBE192F1B1E0AE100252CE3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AF921AF21AF99A1D00C48469 /* Koruri-Bold.ttf */,
+				AF921AF31AF99A1D00C48469 /* Koruri-Extrabold.ttf */,
+				AF921AF41AF99A1D00C48469 /* Koruri-Light.ttf */,
+				AF921AF51AF99A1D00C48469 /* Koruri-Regular.ttf */,
+				AF921AF61AF99A1D00C48469 /* Koruri-Semibold.ttf */,
+				AF921AFE1AF99A1D00C48469 /* steelfish outline.ttf */,
+				AF921AFF1AF99A1D00C48469 /* steelfish rg.ttf */,
+			);
+			name = Fonts;
+			path = Font;
+			sourceTree = "<group>";
+		};
+		AFBE19321B1E0EEB00252CE3 /* Send */ = {
+			isa = PBXGroup;
+			children = (
+				AFBE19331B1E0EF300252CE3 /* TopViewController.swift */,
+				AFBE19371B1E0F2D00252CE3 /* InputViewController.swift */,
+				AFBE19351B1E0EF900252CE3 /* SelectViewController.swift */,
+				AFBE19391B1E0F3300252CE3 /* FinishViewController.swift */,
+			);
+			name = Send;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37D99A991AF72231008279BF /* yoteikakunin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D99AB91AF72231008279BF /* Build configuration list for PBXNativeTarget "yoteikakunin" */;
+			buildPhases = (
+				DB9E94123D5A0FF262769773 /* Check Pods Manifest.lock */,
+				37D99A961AF72231008279BF /* Sources */,
+				37D99A971AF72231008279BF /* Frameworks */,
+				37D99A981AF72231008279BF /* Resources */,
+				4C9AB2946E103E99F43A548D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yoteikakunin;
+			productName = yoteikakunin;
+			productReference = 37D99A9A1AF72231008279BF /* yoteikakunin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37D99A921AF72231008279BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = srrn;
+				TargetAttributes = {
+					37D99A991AF72231008279BF = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = XFUA4YPVDB;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 37D99A951AF72231008279BF /* Build configuration list for PBXProject "yoteikakunin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37D99A911AF72231008279BF;
+			productRefGroup = 37D99A9B1AF72231008279BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37D99A991AF72231008279BF /* yoteikakunin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37D99A981AF72231008279BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3737A1E91B897A2B0063E85F /* Icon-60.png in Resources */,
+				AF9D565D1B5D0A3300DDB0CE /* appoli-basic@2x.png in Resources */,
+				3737A1E31B897A2B0063E85F /* Icon-60@3x.png in Resources */,
+				3737A1A51B888A490063E85F /* Appoli-appobuttonAD_15.jpg in Resources */,
+				3737A1E71B897A2B0063E85F /* Icon-Small@2x.png in Resources */,
+				3737A1C01B888A490063E85F /* Appoli-アップデートHOMEボタン_25.jpg in Resources */,
+				3737A1A71B888A490063E85F /* Appoli-apposelectAD.jpg in Resources */,
+				3737A1B71B888A490063E85F /* Appoli-settingbutton_03.jpg in Resources */,
+				3737A1BE1B888A490063E85F /* Appoli-アップデートHOMEボタン_17.jpg in Resources */,
+				3737A1BC1B888A490063E85F /* Appoli-アップデートHOME_02.jpg in Resources */,
+				3737A1F11B897A2B0063E85F /* iTunesArtwork@2x.png in Resources */,
+				3737A1E81B897A2B0063E85F /* Icon-Small@3x.png in Resources */,
+				3737A1A41B888A490063E85F /* Appoli-appobuttonAD_11.jpg in Resources */,
+				3737A1F01B897A2B0063E85F /* iTunesArtwork.png in Resources */,
+				3737A1E21B897A2B0063E85F /* Icon-60@2x.png in Resources */,
+				3737A1E41B897A2B0063E85F /* Icon-76.png in Resources */,
+				3737A1B61B888A490063E85F /* Appoli-loginButton_06.jpg in Resources */,
+				AF921AE21AF9113C00C48469 /* Default-667h@2x.png in Resources */,
+				3737A1C61B888A490063E85F /* Appoli-アップデートデザインappo_25.jpg in Resources */,
+				3737A1A31B888A490063E85F /* Appoli-appobuttonAD_07.jpg in Resources */,
+				3737A1C21B888A490063E85F /* Appoli-アップデートデザイン2_03.jpg in Resources */,
+				AF9D565F1B5D0ADA00DDB0CE /* top-bg@2x.png in Resources */,
+				3737A1BD1B888A490063E85F /* Appoli-アップデートHOMEボタン_14.jpg in Resources */,
+				3737A1EA1B897A2B0063E85F /* Icon-72.png in Resources */,
+				3737A1B41B888A490063E85F /* Appoli-LoginAD.jpg in Resources */,
+				37D99AAA1AF72231008279BF /* LaunchScreen.xib in Resources */,
+				3737A1B21B888A490063E85F /* Appoli-homeAD.jpg in Resources */,
+				3737A1B91B888A490063E85F /* Appoli-settingselectAD.jpg in Resources */,
+				3737A1E11B897A2B0063E85F /* Icon-40@3x.png in Resources */,
+				3737A1A01B888A490063E85F /* Appoli-appoAD.jpg in Resources */,
+				AF9D56611B5D0C4B00DDB0CE /* human@2x.png in Resources */,
+				3737A1C41B888A490063E85F /* Appoli-アップデートデザインappo_18.jpg in Resources */,
+				AF921B0E1AF99A1D00C48469 /* Koruri-Regular.ttf in Resources */,
+				AF921B0B1AF99A1D00C48469 /* Koruri-Bold.ttf in Resources */,
+				AF921B0F1AF99A1D00C48469 /* Koruri-Semibold.ttf in Resources */,
+				3737A1EC1B897A2B0063E85F /* Icon-Small-50.png in Resources */,
+				AF9D56631B5D0CAC00DDB0CE /* setting@2x.png in Resources */,
+				3737A19E1B888A490063E85F /* Appoli--_11.jpg in Resources */,
+				37F9BED21BEF904700B60D14 /* Appoli-Apposelect2.png in Resources */,
+				3737A1C11B888A490063E85F /* Appoli-アップデートHOMEボタン_30.jpg in Resources */,
+				3737A19F1B888A490063E85F /* Appoli-add-friendaAD.jpg in Resources */,
+				37198D461B8A224500C8F45D /* Appoli-friendsbutton_03.jpg in Resources */,
+				AF921ADC1AF8AADE00C48469 /* noimage.jpg in Resources */,
+				AF9D56651B5D12A800DDB0CE /* fukidashi@2x.png in Resources */,
+				3737A1B31B888A490063E85F /* Appoli-HomeAD1_02.jpg in Resources */,
+				3737A1EE1B897A2B0063E85F /* Icon.png in Resources */,
+				3737A1A21B888A490063E85F /* Appoli-appobuttonAD_03.jpg in Resources */,
+				AF9D565A1B5D094E00DDB0CE /* arrow@2x.jpg in Resources */,
+				3737A1ED1B897A2B0063E85F /* Icon-Small-50@2x.png in Resources */,
+				AF921B181AF99A1D00C48469 /* steelfish rg.ttf in Resources */,
+				3737A1AC1B888A490063E85F /* Appoli-HomeAD_14.jpg in Resources */,
+				AF921B0D1AF99A1D00C48469 /* Koruri-Light.ttf in Resources */,
+				AFBE192A1B1C34E000252CE3 /* FriendsCell.xib in Resources */,
+				37F9BED41BEFAD7400B60D14 /* Appoli-check.png in Resources */,
+				3737A1B01B888A490063E85F /* Appoli-HomeAD_27.jpg in Resources */,
+				3737A1AA1B888A490063E85F /* Appoli-checkAD.jpg in Resources */,
+				AF921B0C1AF99A1D00C48469 /* Koruri-Extrabold.ttf in Resources */,
+				3737A1B81B888A490063E85F /* Appoli-settingbutton_07.jpg in Resources */,
+				AF921AE11AF9113C00C48469 /* Default-568h@2x.png in Resources */,
+				3737A1C31B888A490063E85F /* Appoli-アップデートデザインappo_14.jpg in Resources */,
+				3737A1B11B888A490063E85F /* Appoli-HomeAD_30.jpg in Resources */,
+				3737A1A91B888A490063E85F /* Appoli-Button2_07.jpg in Resources */,
+				37D99AA71AF72231008279BF /* Images.xcassets in Resources */,
+				3737A1A61B888A490063E85F /* Appoli-appoOKAD.jpg in Resources */,
+				3737A1E61B897A2B0063E85F /* Icon-Small.png in Resources */,
+				3737A1BA1B888A490063E85F /* Appoli-signupAD.jpg in Resources */,
+				3737A1E01B897A2B0063E85F /* Icon-40@2x.png in Resources */,
+				3737A1BB1B888A490063E85F /* Appoli-アップデートappo_04.jpg in Resources */,
+				3737A1B51B888A490063E85F /* Appoli-loginButton_03.jpg in Resources */,
+				AF921B171AF99A1D00C48469 /* steelfish outline.ttf in Resources */,
+				3737A1DF1B897A2B0063E85F /* Icon-40.png in Resources */,
+				3737A1EB1B897A2B0063E85F /* Icon-72@2x.png in Resources */,
+				379C703E1B8805C200F901A5 /* Main.storyboard in Resources */,
+				3737A1A81B888A490063E85F /* Appoli-Button2_03.jpg in Resources */,
+				3737A1AE1B888A490063E85F /* Appoli-HomeAD_19.jpg in Resources */,
+				3737A1E51B897A2B0063E85F /* Icon-76@2x.png in Resources */,
+				3737A1A11B888A490063E85F /* Appoli-appoAD1.jpg in Resources */,
+				AFBE192E1B1C699900252CE3 /* selected@2x.png in Resources */,
+				3737A1AB1B888A490063E85F /* Appoli-friends-listAD.jpg in Resources */,
+				AF921AE31AF9113C00C48469 /* Default-736h@3x.png in Resources */,
+				3737A1AF1B888A490063E85F /* Appoli-HomeAD_23.jpg in Resources */,
+				3737A1EF1B897A2B0063E85F /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C9AB2946E103E99F43A548D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yoteikakunin/Pods-yoteikakunin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB9E94123D5A0FF262769773 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37D99A961AF72231008279BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF921ACC1AF8861900C48469 /* LoginViewController.swift in Sources */,
+				AF2B98381B09FBE300A3899C /* FriendManager.swift in Sources */,
+				AF84A93F1B07BFE000D2EC6F /* ListTableView.swift in Sources */,
+				AFBE19381B1E0F2D00252CE3 /* InputViewController.swift in Sources */,
+				AFA46C801B82FC2A00BC6631 /* FriendsViewController.swift in Sources */,
+				AF921AC61AF8846E00C48469 /* UserManager.swift in Sources */,
+				AF921AD61AF8A33A00C48469 /* SignUpViewController.swift in Sources */,
+				AF921B501AFB411800C48469 /* CheckViewController.swift in Sources */,
+				AFBE19341B1E0EF300252CE3 /* TopViewController.swift in Sources */,
+				AF2B98361B09F43A00A3899C /* FriendListViewController.swift in Sources */,
+				AF2B98341B09F41C00A3899C /* AddFriendViewController.swift in Sources */,
+				AFBE19361B1E0EF900252CE3 /* SelectViewController.swift in Sources */,
+				AF2B98321B09E00B00A3899C /* ViewUtility.swift in Sources */,
+				37D99AA01AF72231008279BF /* AppDelegate.swift in Sources */,
+				AF4755391B0302E100A21F64 /* GeoUtility.swift in Sources */,
+				AFBE19291B1C34E000252CE3 /* FriendsCell.swift in Sources */,
+				37F9BECE1BEF8C5700B60D14 /* AppoSelectViewController.swift in Sources */,
+				AFBE193A1B1E0F3300252CE3 /* FinishViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37D99AA81AF72231008279BF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37D99AA91AF72231008279BF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37D99AB71AF72231008279BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "41213764-f282-469a-983b-a851e3502a74";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37D99AB81AF72231008279BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "41213764-f282-469a-983b-a851e3502a74";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37D99ABA1AF72231008279BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E70F23573823342493603B6A /* Pods-yoteikakunin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "yoteikakunin/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ApoliDevelopPush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "yoteikakunin/Supporting Files/yoteikakunin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37D99ABB1AF72231008279BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FF1AFD2B4DDA0F5D47EA00 /* Pods-yoteikakunin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "yoteikakunin/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ApoliDevelopPush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "yoteikakunin/Supporting Files/yoteikakunin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37D99A951AF72231008279BF /* Build configuration list for PBXProject "yoteikakunin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D99AB71AF72231008279BF /* Debug */,
+				37D99AB81AF72231008279BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37D99AB91AF72231008279BF /* Build configuration list for PBXNativeTarget "yoteikakunin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D99ABA1AF72231008279BF /* Debug */,
+				37D99ABB1AF72231008279BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37D99A921AF72231008279BF /* Project object */;
+}

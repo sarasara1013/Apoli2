@@ -1,0 +1,22 @@
+PODS:
+  - Bolts/Tasks (1.3.0)
+  - DWTagList (0.0.7)
+  - INTULocationManager (4.1.1)
+  - Parse (1.9.0):
+    - Bolts/Tasks (>= 1.3.0)
+  - SVProgressHUD (1.1.3)
+
+DEPENDENCIES:
+  - DWTagList (~> 0.0.5)
+  - INTULocationManager
+  - Parse (~> 1.9.0)
+  - SVProgressHUD (~> 1.1.3)
+
+SPEC CHECKSUMS:
+  Bolts: 805a4a87413e49d4a0c2b7d469084cbc46b09342
+  DWTagList: cdf3607a7c37850a0c437d63c981f643dc5904bb
+  INTULocationManager: 83c7373048d583cda57e25eefb9bb8a3675acf16
+  Parse: 712efbc476d4f47b0f96b70db7e53101575753aa
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+
+COCOAPODS: 0.38.2

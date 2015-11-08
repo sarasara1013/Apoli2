@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dS5-hb-BvO">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Koruri-Regular.ttf">
+            <string>Koruri-Regular</string>
+            <string>Koruri-Regular</string>
+            <string>Koruri-Regular</string>
+        </mutableArray>
+        <mutableArray key="steelfish rg.ttf">
+            <string>SteelfishRg-Regular</string>
+            <string>SteelfishRg-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="IWe-p9-GKb">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="kCy-81-3c2" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cUY-db-uVt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4v0-bo-z53" kind="relationship" relationship="rootViewController" id="Jso-6a-57E"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PQb-se-dhX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-144" y="-94"/>
+        </scene>
+        <!--Input View Controller-->
+        <scene sceneID="wEB-av-7aO">
+            <objects>
+                <viewController id="4v0-bo-z53" customClass="InputViewController" customModule="yoteikakunin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gy3-Ou-PYF"/>
+                        <viewControllerLayoutGuide type="bottom" id="Uhk-2v-hWd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yuh-wX-OZM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fukidashi.png" translatesAutoresizingMaskIntoConstraints="NO" id="HCK-YF-6Ts">
+                                <rect key="frame" x="16" y="54" width="288" height="402"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8oF-TA-Xq1">
+                                <rect key="frame" x="54" y="128" width="38" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUI-Gp-cKr">
+                                <rect key="frame" x="54" y="84" width="38" height="23"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="List" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UhA-1d-Vc8">
+                                <rect key="frame" x="56" y="200" width="51" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Comment" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3IA-wT-lE4">
+                                <rect key="frame" x="54" y="258" width="115" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TRk-nV-fJ2">
+                                <rect key="frame" x="54" y="287" width="208" height="90"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpt-VV-zQ7">
+                                <rect key="frame" x="102" y="164" width="14" height="20"/>
+                                <state key="normal" backgroundImage="mappin.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="getCurrentPrace" destination="4v0-bo-z53" eventType="touchUpInside" id="bAX-Ze-elk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Place" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKr-fC-FGf">
+                                <rect key="frame" x="54" y="166" width="43" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="20XX/XX/XX" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4br-0F-s8E">
+                                <rect key="frame" x="124" y="81" width="138" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="XX:XX" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XBk-Hi-qex">
+                                <rect key="frame" x="124" y="124" width="138" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="JAPAN" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Ae-Bg-Srb">
+                                <rect key="frame" x="146" y="162" width="116" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tuk-pG-M5Q" customClass="DWTagList">
+                                <rect key="frame" x="124" y="200" width="138" height="55"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lrG-Ef-oQw">
+                                <rect key="frame" x="95" y="196" width="29" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addTag" destination="4v0-bo-z53" eventType="touchUpInside" id="MZC-Az-I8q"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appoli-basic.png" translatesAutoresizingMaskIntoConstraints="NO" id="1mt-bf-wFu">
+                                <rect key="frame" x="99" y="447" width="122" height="122"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQc-ZS-CvR">
+                                <rect key="frame" x="30" y="504" width="44" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" backgroundImage="arrow.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back" destination="4v0-bo-z53" eventType="touchUpInside" id="6Rf-Ax-cue"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27b-d7-KAA">
+                                <rect key="frame" x="110" y="436" width="97" height="84"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="0.039215686274509803" green="0.12156862745098039" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goNext" destination="4v0-bo-z53" eventType="touchUpInside" id="71h-v0-RdE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.031372549020000001" green="0.1843137255" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DFh-CR-C5L"/>
+                    <connections>
+                        <outlet property="commentTextView" destination="TRk-nV-fJ2" id="aB5-hT-7Pz"/>
+                        <outlet property="dateTextField" destination="4br-0F-s8E" id="zsr-n1-hc6"/>
+                        <outlet property="listView" destination="tuk-pG-M5Q" id="CsL-CP-KCV"/>
+                        <outlet property="mapPinButton" destination="cpt-VV-zQ7" id="tGN-9K-I7W"/>
+                        <outlet property="placeTextField" destination="9Ae-Bg-Srb" id="qaL-cb-elX"/>
+                        <outlet property="timeTextField" destination="XBk-Hi-qex" id="Xkt-nK-LT6"/>
+                        <segue destination="d8v-e2-ymt" kind="push" identifier="toSelect" id="YHu-C8-njN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iTa-E9-LsM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="270" y="-95"/>
+        </scene>
+        <!--Select View Controller-->
+        <scene sceneID="PlO-0S-kmH">
+            <objects>
+                <viewController id="d8v-e2-ymt" customClass="SelectViewController" customModule="yoteikakunin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s5i-wN-S4o"/>
+                        <viewControllerLayoutGuide type="bottom" id="CB1-IS-itn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FNF-6q-jA0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fukidashi.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Z9-nj-xcz">
+                                <rect key="frame" x="16" y="50" width="288" height="411"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sBX-cO-JWc">
+                                <rect key="frame" x="30" y="504" width="44" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" backgroundImage="arrow.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back" destination="d8v-e2-ymt" eventType="touchUpInside" id="zZC-wo-sdS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="現在" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moM-Dc-d8F">
+                                <rect key="frame" x="53" y="356" width="44" height="24"/>
+                                <fontDescription key="fontDescription" name="Koruri-Regular" family="Koruri" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="人" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rD4-Rx-eNp">
+                                <rect key="frame" x="195" y="357" width="17" height="21"/>
+                                <fontDescription key="fontDescription" name="Koruri-Regular" family="Koruri" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="追加中" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOt-9D-bV5">
+                                <rect key="frame" x="215" y="356" width="51" height="24"/>
+                                <fontDescription key="fontDescription" name="Koruri-Regular" family="Koruri" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="iF5-qB-BIz">
+                                <rect key="frame" x="46" y="76" width="229" height="273"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendsCell" rowHeight="60" id="GYk-sv-u2o" customClass="FriendsCell" customModule="yoteikakunin" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="297" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GYk-sv-u2o" id="PKe-b8-25L">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="検索" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EI3-1s-oaH">
+                                <rect key="frame" x="91" y="6" width="139" height="72"/>
+                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEY-rh-HBx">
+                                <rect key="frame" x="105" y="357" width="80" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appoli-basic.png" translatesAutoresizingMaskIntoConstraints="NO" id="qTL-vx-vd4">
+                                <rect key="frame" x="99" y="446" width="122" height="122"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zca-bt-r0l">
+                                <rect key="frame" x="110" y="434" width="97" height="84"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <state key="normal" title="APPO">
+                                    <color key="titleColor" red="0.039215686270000001" green="0.1215686275" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="plus" destination="d8v-e2-ymt" eventType="touchUpInside" id="ywx-X7-mYn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.050845590440442005" green="0.16172341618172265" blue="0.31928882664176783" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lYg-UX-aVZ"/>
+                    <connections>
+                        <outlet property="friendsTableView" destination="iF5-qB-BIz" id="y0Z-7w-r1e"/>
+                        <outlet property="selectedNumberLabel" destination="AEY-rh-HBx" id="j7j-cT-Sve"/>
+                        <segue destination="Grh-1A-F7V" kind="push" identifier="toResultViewController" id="XYE-We-w4U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NSk-iH-QbM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="669" y="-94"/>
+        </scene>
+        <!--Finish View Controller-->
+        <scene sceneID="YdP-II-tY5">
+            <objects>
+                <viewController id="Grh-1A-F7V" customClass="FinishViewController" customModule="yoteikakunin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ELV-3c-Sf9"/>
+                        <viewControllerLayoutGuide type="bottom" id="O6T-Mw-m5r"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GDc-vb-Xgp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fukidashi.png" translatesAutoresizingMaskIntoConstraints="NO" id="AAG-3W-maD">
+                                <rect key="frame" x="14" y="49" width="288" height="402"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appoli-basic.png" translatesAutoresizingMaskIntoConstraints="NO" id="p5F-h9-2DY">
+                                <rect key="frame" x="99" y="446" width="122" height="122"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IfS-M1-kqy">
+                                <rect key="frame" x="110" y="434" width="97" height="84"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <state key="normal" title="BACK">
+                                    <color key="titleColor" red="0.039215686270000001" green="0.1215686275" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back" destination="Grh-1A-F7V" eventType="touchUpInside" id="gHo-0L-Vsw"/>
+                                    <action selector="plus" destination="d8v-e2-ymt" eventType="touchUpInside" id="qMa-cM-nUl"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="v5Z-eH-VDl">
+                                <rect key="frame" x="39" y="81" width="238" height="263"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="1Gw-JI-lJx">
+                                        <rect key="frame" x="0.0" y="0.0" width="222" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1Gw-JI-lJx" id="X6Y-qH-QbB">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="に送りました" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yce-Zh-te5">
+                                <rect key="frame" x="168" y="352" width="109" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.053814345328851799" green="0.17116606751492347" blue="0.33793135309679423" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eid-4J-5tu"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="table" destination="v5Z-eH-VDl" id="CrR-uH-HJ1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t3Q-ai-Ihl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1098" y="-95"/>
+        </scene>
+        <!--Top View Controller-->
+        <scene sceneID="DQG-90-OnM">
+            <objects>
+                <viewController id="dS5-hb-BvO" customClass="TopViewController" customModule="yoteikakunin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ang-At-itA"/>
+                        <viewControllerLayoutGuide type="bottom" id="PY5-vN-wWW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UDk-XP-jRR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appoli-basic.png" translatesAutoresizingMaskIntoConstraints="NO" id="Y6L-ol-PpK">
+                                <rect key="frame" x="60" y="368" width="200" height="200"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="top-bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="FiU-fQ-LxL">
+                                <rect key="frame" x="30" y="75" width="260" height="270"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AcI-ZC-tVh">
+                                <rect key="frame" x="51" y="101" width="126" height="83"/>
+                                <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="48"/>
+                                <state key="normal" title="APPO!">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushSend" destination="dS5-hb-BvO" eventType="touchUpInside" id="jRy-xd-Iec"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ev-K3-uNo">
+                                <rect key="frame" x="147" y="200" width="124" height="83"/>
+                                <fontDescription key="fontDescription" name="SteelfishRg-Regular" family="Steelfish" pointSize="48"/>
+                                <state key="normal" title="CHECK!">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushCheck" destination="dS5-hb-BvO" eventType="touchUpInside" id="6gV-T9-ghD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUT-HX-T7w">
+                                <rect key="frame" x="71" y="218" width="47" height="47"/>
+                                <state key="normal" backgroundImage="setting.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="signIn" destination="dS5-hb-BvO" eventType="touchUpInside" id="VJI-2z-y1J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXc-aX-495">
+                                <rect key="frame" x="192" y="122" width="68" height="41"/>
+                                <state key="normal" backgroundImage="human.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushFriend" destination="dS5-hb-BvO" eventType="touchUpInside" id="ikK-VJ-8FQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.031372549019607843" green="0.18431372549019609" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <segue destination="kCy-81-3c2" kind="modal" identifier="toSend" modalTransitionStyle="crossDissolve" id="OI0-rH-Wz5"/>
+                        <segue destination="FcN-G2-lPl" kind="modal" identifier="toLogin" id="KL3-HN-GGm"/>
+                        <segue destination="RaF-gw-Vid" kind="modal" identifier="toFriend" modalTransitionStyle="crossDissolve" id="Xh9-mK-feO"/>
+                        <segue destination="deV-RH-VU6" kind="modal" identifier="toCheck" modalTransitionStyle="crossDissolve" id="vYJ-uh-TpB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MLx-0l-QjV" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-583" y="625"/>
+        </scene>
+        <!--Check View Controller-->
+        <scene sceneID="lRD-46-lkb">
+            <objects>
+                <viewController id="nGM-rt-EgI" customClass="CheckViewController" customModule="yoteikakunin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sSv-Yf-Kv9"/>
+                        <viewControllerLayoutGuide type="bottom" id="rnT-oz-mPI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Oed-dq-PQI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fukidashi.png" translatesAutoresizingMaskIntoConstraints="NO" id="jBB-SW-0hO">
+                                <rect key="frame" x="16" y="20" width="288" height="433"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appoli-basic.png" translatesAutoresizingMaskIntoConstraints="NO" id="3OZ-Sl-ABn">
+                                <rect key="frame" x="99" y="446" width="122" height="122"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaU-wn-jdk">
+                                <rect key="frame" x="16" y="504" width="44" height="44"/>
+                                <state key="normal" backgroundImage="arrow.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToTop" destination="nGM-rt-EgI" eventType="touchUpInside" id="itl-zP-kHX"/>
+                                    <action selector="backToTop" destination="FcN-G2-lPl" eventType="touchUpInside" id="ny5-9C-Hq0"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eRt-FZ-qCH">
+                                <rect key="frame" x="30" y="34" width="258" height="352"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="コメント" translatesAutoresizingMaskIntoConstraints="NO" id="KaD-vH-3l8">
+                                        <rect key="frame" x="138" y="206" width="104" height="130"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="30" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="NIW-uc-w9D">
+                                        <rect key="frame" x="28" y="206" width="102" height="130"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <prototypes>
+                                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="30" id="abJ-3t-acH">
+                                                <rect key="frame" x="0.0" y="0.0" width="102" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="abJ-3t-acH" id="tIS-9X-yfF">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                        </prototypes>
+                                    </tableView>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3tr-Nq-a5u" customClass="DWTagList">
+                                        <rect key="frame" x="24" y="65" width="214" height="50"/>
+                                    </scrollView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xik-zY-see">
+                                        <rect key="frame" x="25" y="15" width="122" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="さんから" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wVl-Fc-4AA">
+                                        <rect key="frame" x="162" y="15" width="76" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Place" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PlH-05-gYf">
+                                        <rect key="frame" x="28" y="177" width="210" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="QcG-vh-Smy">
+                                        <rect key="frame" x="24" y="123" width="214" height="77"/>
+                                    </mapView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgr-vJ-MtF">
+                                        <rect key="frame" x="25" y="40" width="214" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvY-zQ-4Ye">
+                                <rect key="frame" x="112" y="450" width="92" height="54"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <state key="normal" title="Check">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.061850735115523463" green="0.14385384633325657" blue="0.33500038904450669" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tqj-PU-CY5"/>
+                    <connections>
+                        <outlet property="commentTextView" destination="KaD-vH-3l8" id="leI-KZ-QnS"/>
+                        <outlet property="listView" destination="3tr-Nq-a5u" id="zrC-pP-OfA"/>
+                        <outlet property="mapView" destination="QcG-vh-Smy" id="tQm-Jv-y3d"/>
+                        <outlet property="nameLabel" destination="xik-zY-see" id="jh0-qe-he7"/>
+                        <outlet property="placeLabel" destination="PlH-05-gYf" id="4cp-RN-uaF"/>
+                        <outlet property="table" destination="NIW-uc-w9D" id="R9o-EL-Nnn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xse-Ck-ADw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="270" y="625"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="twP-zR-rE4">
+            <objects>
+                <viewController id="FcN-G2-lPl" customClass="LoginViewController" customModule="yoteikakunin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3pS-c1-UJF"/>
+                        <viewControllerLayoutGuide type="bottom" id="wFM-fT-9DW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5sH-T9-520">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fukidashi.png" translatesAutoresizingMaskIntoConstraints="NO" id="tBu-y1-Zh2">
+                                <rect key="frame" x="16" y="57" width="288" height="236"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1o-rz-oHN">
+                                <rect key="frame" x="49" y="84" width="222" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="0.65000000000000002" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="0.88" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Cg-WF-hbY">
+                                <rect key="frame" x="49" y="101" width="34" height="37"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="29"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pass" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9YU-wi-lrO">
+                                <rect key="frame" x="49" y="181" width="60" height="35"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="29"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wq5-bE-wFK">
+                                <rect key="frame" x="80" y="467" width="158" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Appoliに登録">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8T1-UV-gZq" kind="modal" id="tdF-Nl-Bbi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yE-hx-6LY">
+                                <rect key="frame" x="81" y="511" width="158" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="パスワード忘れた方">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPe-sK-hIH">
+                                <rect key="frame" x="21" y="504" width="44" height="44"/>
+                                <state key="normal" backgroundImage="arrow.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToTop" destination="FcN-G2-lPl" eventType="touchUpInside" id="dlL-8x-1Sl"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="userID" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WtQ-C9-BHS">
+                                <rect key="frame" x="121" y="105" width="150" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appoli-basic.png" translatesAutoresizingMaskIntoConstraints="NO" id="Y8i-1Q-wcS">
+                                <rect key="frame" x="70" y="288" width="180" height="180"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eth-1n-AT6">
+                                <rect key="frame" x="98" y="307" width="121" height="55"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <state key="normal" title="LOGIN">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="login" destination="FcN-G2-lPl" eventType="touchUpInside" id="ZNP-2k-oTn"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s2P-8R-eYs">
+                                <rect key="frame" x="121" y="186" width="150" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.045785794134945025" green="0.17765518736046057" blue="0.33427773887332712" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="loginIDTextField" destination="WtQ-C9-BHS" id="Ufr-St-MFQ"/>
+                        <outlet property="loginPassTextField" destination="s2P-8R-eYs" id="oZ4-sD-9tF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F4L-4a-Mgs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-758" y="1343"/>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="Sl5-MZ-nCU">
+            <objects>
+                <viewController id="8T1-UV-gZq" customClass="SignUpViewController" customModule="yoteikakunin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vlx-gF-7fr"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mce-P7-yZZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Bne-Yy-GTV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fukidashi.png" translatesAutoresizingMaskIntoConstraints="NO" id="gNf-BY-1Rx">
+                                <rect key="frame" x="16" y="44" width="288" height="408"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appoli-basic.png" translatesAutoresizingMaskIntoConstraints="NO" id="n0x-7Q-ydo">
+                                <rect key="frame" x="106" y="446" width="122" height="122"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="noimage.jpg" highlightedImage="registration.png" translatesAutoresizingMaskIntoConstraints="NO" id="uTH-bO-ZWC">
+                                <rect key="frame" x="61" y="101" width="204" height="121"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61I-l5-WNf">
+                                <rect key="frame" x="54" y="241" width="37" height="24"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pass" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBT-Ar-2St">
+                                <rect key="frame" x="54" y="310" width="60" height="26"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eg6-8F-3yo">
+                                <rect key="frame" x="116" y="239" width="149" height="27"/>
+                                <color key="backgroundColor" red="0.84596147486772488" green="0.84596147486772488" blue="0.84596147486772488" alpha="0.88" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJj-oY-rAB">
+                                <rect key="frame" x="116" y="309" width="149" height="27"/>
+                                <color key="backgroundColor" red="0.77540095899470896" green="0.77540095899470896" blue="0.77540095899470896" alpha="0.60999999999999999" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" alpha="0.69999998807907104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PWB-oV-zZi">
+                                <rect key="frame" x="116" y="238" width="149" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KUI-3s-mZZ">
+                                <rect key="frame" x="116" y="310" width="149" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCm-aR-LRN">
+                                <rect key="frame" x="16" y="504" width="44" height="44"/>
+                                <state key="normal" backgroundImage="arrow.jpg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back" destination="8T1-UV-gZq" eventType="touchUpInside" id="1UT-xK-Dew"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLq-Yc-Xdu">
+                                <rect key="frame" x="73" y="99" width="175" height="126"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="openPhotoLibrary" destination="8T1-UV-gZq" eventType="touchUpInside" id="0N7-oc-t61"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0RS-vm-6fk">
+                                <rect key="frame" x="116" y="451" width="95" height="54"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <state key="normal" title="OK">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="signUp" destination="8T1-UV-gZq" eventType="touchUpInside" id="a4c-cl-MHM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="新規登録" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZhW-5j-48w">
+                                <rect key="frame" x="113" y="65" width="95" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.057043183894261433" green="0.15995424579587128" blue="0.33231184835045124" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="userIDTextField" destination="PWB-oV-zZi" id="BTM-rE-dyV"/>
+                        <outlet property="userImageView" destination="uTH-bO-ZWC" id="B7E-di-dXQ"/>
+                        <outlet property="userPassTextField" destination="KUI-3s-mZZ" id="OIE-gz-EVq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rEx-DO-LJo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-357" y="1343"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kHZ-Lg-YRt">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="RaF-gw-Vid" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="k40-I2-bmr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="AHQ-Th-kbH" kind="relationship" relationship="rootViewController" id="JMi-0I-mf7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vph-bK-orG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="27" y="1343"/>
+        </scene>
+        <!--Friends View Controller-->
+        <scene sceneID="MDi-oc-sT1">
+            <objects>
+                <viewController id="AHQ-Th-kbH" customClass="FriendsViewController" customModule="yoteikakunin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U2V-ON-eFu"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZPe-ex-VbL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hQC-Wn-Fit">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fukidashi.png" translatesAutoresizingMaskIntoConstraints="NO" id="rKk-Ak-dYC">
+                                <rect key="frame" x="16" y="83" width="288" height="337"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7NR-2K-V8j">
+                                <rect key="frame" x="50" y="154" width="220" height="51"/>
+                                <state key="normal" backgroundImage="add-friends_42.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CTz-IL-6ja" kind="push" id="Os2-2f-ilD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xBC-8O-uZz">
+                                <rect key="frame" x="50" y="262" width="220" height="49"/>
+                                <state key="normal" backgroundImage="Friendlist_45.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wBx-go-EtA" kind="push" id="gqs-Gx-rl7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvW-ot-aBT">
+                                <rect key="frame" x="24" y="504" width="44" height="44"/>
+                                <state key="normal" backgroundImage="arrow.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToTop" destination="AHQ-Th-kbH" eventType="touchUpInside" id="oaf-Sz-BYn"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appoli-basic.png" translatesAutoresizingMaskIntoConstraints="NO" id="MUm-bB-e3g">
+                                <rect key="frame" x="99" y="446" width="122" height="122"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.054891594703142324" green="0.15575546461057535" blue="0.32825873404917527" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HFk-Ww-S5H"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hxh-60-dJC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="388" y="1343"/>
+        </scene>
+        <!--Add Friend View Controller-->
+        <scene sceneID="z0o-0c-hVr">
+            <objects>
+                <viewController id="CTz-IL-6ja" customClass="AddFriendViewController" customModule="yoteikakunin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l96-4M-kM4"/>
+                        <viewControllerLayoutGuide type="bottom" id="eYb-fQ-WPc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8wC-c8-mTE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fukidashi.png" translatesAutoresizingMaskIntoConstraints="NO" id="31x-1c-87N">
+                                <rect key="frame" x="0.0" y="36" width="320" height="406"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36y-2g-wz4">
+                                <rect key="frame" x="16" y="492" width="44" height="44"/>
+                                <state key="normal" backgroundImage="arrow.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back" destination="CTz-IL-6ja" eventType="touchUpInside" id="Tec-FL-BST"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appoli-basic.png" translatesAutoresizingMaskIntoConstraints="NO" id="AUD-oA-wVg">
+                                <rect key="frame" x="99" y="446" width="122" height="122"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dz2-6O-NKe">
+                                <rect key="frame" x="128" y="464" width="59" height="21"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="55" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="cuU-ot-eBf">
+                                <rect key="frame" x="16" y="45" width="288" height="338"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendCell" rowHeight="60" id="NkA-WB-NWE">
+                                        <rect key="frame" x="0.0" y="0.0" width="297" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NkA-WB-NWE" id="56m-a3-Lnt">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.049377669508922299" green="0.15705443337173644" blue="0.31007090336134457" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6gC-eS-f0t"/>
+                    <connections>
+                        <outlet property="resultTableView" destination="cuU-ot-eBf" id="Kc0-dS-rib"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SPM-Vx-ySe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="824" y="1034"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Thz-FI-k9H">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="deV-RH-VU6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qtE-2b-S2Q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nGM-rt-EgI" kind="relationship" relationship="rootViewController" id="U1e-bw-PBW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cLU-ju-3P9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-136" y="625"/>
+        </scene>
+        <!--Friend List View Controller-->
+        <scene sceneID="CZD-a6-lrI">
+            <objects>
+                <viewController id="wBx-go-EtA" customClass="FriendListViewController" customModule="yoteikakunin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L08-Lg-eYI"/>
+                        <viewControllerLayoutGuide type="bottom" id="50o-wF-7cM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ljr-zo-sEo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fukidashi.png" translatesAutoresizingMaskIntoConstraints="NO" id="EOp-yG-7Tk">
+                                <rect key="frame" x="16" y="28" width="288" height="434"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teh-le-ZTN">
+                                <rect key="frame" x="16" y="504" width="44" height="44"/>
+                                <state key="normal" backgroundImage="arrow.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back" destination="wBx-go-EtA" eventType="touchUpInside" id="dDS-F8-ouz"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appoli-basic.png" translatesAutoresizingMaskIntoConstraints="NO" id="agh-XB-jZA">
+                                <rect key="frame" x="99" y="446" width="122" height="122"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Mzg-fc-bre">
+                                <rect key="frame" x="46" y="61" width="229" height="316"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendsCell" rowHeight="60" id="QmR-yX-asT" customClass="FriendsCell" customModule="yoteikakunin" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="297" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QmR-yX-asT" id="r3E-cJ-glN">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.050921290398793909" green="0.16196419332214793" blue="0.31976419039838155" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ERr-aU-tKt"/>
+                    <connections>
+                        <outlet property="friendListTableView" destination="Mzg-fc-bre" id="XAb-sM-aDJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fDn-CL-BzC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="824" y="1700"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Friendlist_45.png" width="620" height="164"/>
+        <image name="add-friends_42.png" width="621" height="164"/>
+        <image name="appoli-basic.png" width="406" height="348"/>
+        <image name="arrow.jpg" width="67" height="66"/>
+        <image name="fukidashi.png" width="128" height="209"/>
+        <image name="human.png" width="81" height="41"/>
+        <image name="mappin.png" width="177" height="296"/>
+        <image name="noimage.jpg" width="1000" height="1000"/>
+        <image name="registration.png" width="620" height="163"/>
+        <image name="setting.png" width="23" height="23"/>
+        <image name="top-bg.png" width="151" height="155"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
