@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3714A8731BF9EB9E006013DE /* AppoSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3714A8721BF9EB9E006013DE /* AppoSelectCell.xib */; };
+		3714A8751BF9F6CC006013DE /* AppoSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714A8741BF9F6CC006013DE /* AppoSelectCell.swift */; };
 		37198D461B8A224500C8F45D /* Appoli-friendsbutton_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37198D451B8A224500C8F45D /* Appoli-friendsbutton_03.jpg */; };
 		3737A19E1B888A490063E85F /* Appoli--_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1751B888A490063E85F /* Appoli--_11.jpg */; };
 		3737A19F1B888A490063E85F /* Appoli-add-friendaAD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3737A1761B888A490063E85F /* Appoli-add-friendaAD.jpg */; };
@@ -69,10 +71,10 @@
 		37D99AA01AF72231008279BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D99A9F1AF72231008279BF /* AppDelegate.swift */; };
 		37D99AA71AF72231008279BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D99AA61AF72231008279BF /* Images.xcassets */; };
 		37D99AAA1AF72231008279BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D99AA81AF72231008279BF /* LaunchScreen.xib */; };
-		37F9BECE1BEF8C5700B60D14 /* AppoSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F9BECD1BEF8C5700B60D14 /* AppoSelectViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		37F9BED21BEF904700B60D14 /* Appoli-Apposelect2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F9BED11BEF904700B60D14 /* Appoli-Apposelect2.png */; settings = {ASSET_TAGS = (); }; };
-		37F9BED41BEFAD7400B60D14 /* Appoli-check.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F9BED31BEFAD7400B60D14 /* Appoli-check.png */; settings = {ASSET_TAGS = (); }; };
-		7DA0569C46E4C7722F7BA076 /* libPods-yoteikakunin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6796720B9D40647EE8ADF0E0 /* libPods-yoteikakunin.a */; };
+		37F9BECE1BEF8C5700B60D14 /* AppoSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F9BECD1BEF8C5700B60D14 /* AppoSelectViewController.swift */; };
+		37F9BED21BEF904700B60D14 /* Appoli-Apposelect2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F9BED11BEF904700B60D14 /* Appoli-Apposelect2.png */; };
+		37F9BED41BEFAD7400B60D14 /* Appoli-check.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F9BED31BEFAD7400B60D14 /* Appoli-check.png */; };
+		7DA0569C46E4C7722F7BA076 /* libPods-yoteikakunin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6796720B9D40647EE8ADF0E0 /* libPods-yoteikakunin.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		AF2B98321B09E00B00A3899C /* ViewUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B98311B09E00B00A3899C /* ViewUtility.swift */; };
 		AF2B98341B09F41C00A3899C /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B98331B09F41C00A3899C /* AddFriendViewController.swift */; };
 		AF2B98361B09F43A00A3899C /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B98351B09F43A00A3899C /* FriendListViewController.swift */; };
@@ -112,6 +114,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3714A8721BF9EB9E006013DE /* AppoSelectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppoSelectCell.xib; sourceTree = "<group>"; };
+		3714A8741BF9F6CC006013DE /* AppoSelectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppoSelectCell.swift; sourceTree = "<group>"; };
 		37198D451B8A224500C8F45D /* Appoli-friendsbutton_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-friendsbutton_03.jpg"; sourceTree = "<group>"; };
 		3737A1751B888A490063E85F /* Appoli--_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli--_11.jpg"; sourceTree = "<group>"; };
 		3737A1761B888A490063E85F /* Appoli-add-friendaAD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Appoli-add-friendaAD.jpg"; sourceTree = "<group>"; };
@@ -172,6 +176,8 @@
 		3737A1DB1B897A2B0063E85F /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 		3737A1DC1B897A2B0063E85F /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		379C703D1B8805C200F901A5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		37A4ED9E1BF854E200142F92 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		37A4EDA01BF8554C00142F92 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		37D99A9A1AF72231008279BF /* yoteikakunin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yoteikakunin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D99A9E1AF72231008279BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37D99A9F1AF72231008279BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -386,6 +392,8 @@
 		4FE10AB9077E791F7B703EC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37A4EDA01BF8554C00142F92 /* iAd.framework */,
+				37A4ED9E1BF854E200142F92 /* Twitter.framework */,
 				AFA46C811B831AF600BC6631 /* MapKit.framework */,
 				6796720B9D40647EE8ADF0E0 /* libPods-yoteikakunin.a */,
 				791264F96C56AFE4F766F35A /* libPods-yoteikakuninTests.a */,
@@ -441,6 +449,8 @@
 			isa = PBXGroup;
 			children = (
 				37F9BECD1BEF8C5700B60D14 /* AppoSelectViewController.swift */,
+				3714A8741BF9F6CC006013DE /* AppoSelectCell.swift */,
+				3714A8721BF9EB9E006013DE /* AppoSelectCell.xib */,
 				AF921B4F1AFB411800C48469 /* CheckViewController.swift */,
 			);
 			path = Check;
@@ -571,7 +581,7 @@
 				TargetAttributes = {
 					37D99A991AF72231008279BF = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = XFUA4YPVDB;
+						DevelopmentTeam = 9DY86WKN5J;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -628,6 +638,7 @@
 				3737A1BD1B888A490063E85F /* Appoli-アップデートHOMEボタン_14.jpg in Resources */,
 				3737A1EA1B897A2B0063E85F /* Icon-72.png in Resources */,
 				3737A1B41B888A490063E85F /* Appoli-LoginAD.jpg in Resources */,
+				3714A8731BF9EB9E006013DE /* AppoSelectCell.xib in Resources */,
 				37D99AAA1AF72231008279BF /* LaunchScreen.xib in Resources */,
 				3737A1B21B888A490063E85F /* Appoli-homeAD.jpg in Resources */,
 				3737A1B91B888A490063E85F /* Appoli-settingselectAD.jpg in Resources */,
@@ -740,6 +751,7 @@
 				AF2B98361B09F43A00A3899C /* FriendListViewController.swift in Sources */,
 				AF2B98341B09F41C00A3899C /* AddFriendViewController.swift in Sources */,
 				AFBE19361B1E0EF900252CE3 /* SelectViewController.swift in Sources */,
+				3714A8751BF9F6CC006013DE /* AppoSelectCell.swift in Sources */,
 				AF2B98321B09E00B00A3899C /* ViewUtility.swift in Sources */,
 				37D99AA01AF72231008279BF /* AppDelegate.swift in Sources */,
 				AF4755391B0302E100A21F64 /* GeoUtility.swift in Sources */,
